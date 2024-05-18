@@ -1,0 +1,52 @@
+body {
+    background-image: url(images.png); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 30px; /* Space between the circles */
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.circle {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#name {
+    background-color: yellow;
+    background-image: url(cool-background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#roll-number {
+    background-image: url(cool-2.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(225, 30, 56);
+}
+
+#department {
+    background-image: url(cool-4.png);
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+}
+
+#background-image {
+    background-image: url(yogeshwar-prabhu-high-resolution-logo.jpeg);
+    background-size: cover;
+    background-position: center;
+}
